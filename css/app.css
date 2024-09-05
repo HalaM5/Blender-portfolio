@@ -1,0 +1,47 @@
+
+.back{
+    display: none;
+}
+#threeD {
+   
+    border: 10px green solid;
+    background-color: rgb(195, 45, 45);
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .threee{
+    display: none;
+  
+} */
+
+
+
+div{
+    color: azure;
+}
+/*add class in js when click in image/button for making backgroud which will be blur 
+and has x for closing viewport 3D*/
+.appear{
+    display: block;
+    background-color: rgba(11, 11, 11, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+
+}
+
+/*class will add when click on image/button to display
+3d viewport for 3d models*/
+.viewThree{
+    display: block;
+    z-index: 20;
+    position: fixed;
+    top:20vh;
+    width:100vw;
+}

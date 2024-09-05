@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Document</title>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.154.0/examples/jsm/"
+          }
+        }
+      </script> 
+</head>
+<body>
+    <header>
+        <h1>MY blender work</h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="simple">work</a>  </li>
+            <li><a href="intermediated">intermediated work</a> </li>
+            <li><a href="advanced">advanced work </a></li>
+
+
+        </ul>
+    </nav>
+    <main>
+        <!--blur background will be shown when viewport appear to close it by x-->
+        <!-- <div id="background3D" class="appear"> -->
+            <!-- <p id="close">x</p> -->
+        <!-- </div> -->
+        <section>
+            <h2 id="simple">beginner</h2>
+            <video width="450" height="250" controls poster="images/COUNT ZERO NUMBER.png">
+                <source src="videos/COUNTING1 TO 8.mp4" type="video/mp4">
+            </video>
+            <h3>counting 0 to 8</h3>
+            <video width="450" height="250" controls poster="images/room.png">
+                <source src="videos/room formed.mp4" type="video/mp4">
+            </video>
+            <h3>simple cartoon room</h3>
+        </section>
+        <section>
+            <h2 id="intermediated">intermediated</h2>
+            <!--add 3D viewport-->
+            <button class="threeDd" value="dino/table11.glb"></button>
+            <button class="threeDd" value="plate/jump ball.glb"></button>
+            <div id="threeD" class="threee">
+                <p>Zoom and rotate 3D model</p>     
+            </div>
+            <video width="450" height="250" controls poster="images/BALL IN PLATE.png">
+                <source src="videos/final0001-0503.mp4" type="video/mp4">
+            </video>
+            <video width="450" height="250" controls poster="images/donut.png">
+                <source src="videos/donut.mp4" type="video/mp4">
+            </video>
+            
+            <h3></h3>
+        </section>
+        <section>
+            <h2 id="advanced"></h2>
+            <video width="450" height="250" controls poster="">
+                <source src="" type="video/mp4">
+            </video>
+            <h3>soon</h3>
+        </section>
+    </main>
+    <script type="module" src="js/threejs.js"></script>
+    <script src="js/java.js"></script>
+
+    
+</body>
+</html>
