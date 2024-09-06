@@ -1,6 +1,44 @@
+*{
+    box-sizing: border-box;
+}
 
-.back{
-    display: none;
+body{
+    width: 90%;
+    height: 100vh;
+    background-color: aqua;
+   
+}
+
+
+header{
+    font-size: calc(10px + 2vw);
+    width:90vw
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: aquamarine;
+    padding: 1em;
+    max-width: 90vw;
+}
+
+.navBar a{
+    color:red;
+    text-decoration: none;
+    font-size: calc(18px + 0.5vw);
+    width: 90vw;
+
+}
+main{
+    width: 100%;
+    text-align: center;
+}
+
+section{
+    /* background-color: blueviolet; */
+    margin-top: 100px;
 }
 #threeD {
    
@@ -17,6 +55,13 @@
     display: none;
   
 } */
+video{
+    background-color: black;
+    width: 50vw;
+}
+
+
+
 
 
 
@@ -45,3 +90,62 @@ and has x for closing viewport 3D*/
     top:20vh;
     width:100vw;
 }
+
+footer ,header{
+    background-color: rgba(7, 209, 142, 0.707);
+    width: 90vw;
+    padding: 2vh 0 ;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width:600px){
+    nav{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        
+    }
+    ul li{
+        padding: 0.5rem;
+        background-color: azure;
+        width: 93vw;
+        text-align: center;
+        border-bottom: 1px green solid ;
+    }
+
+    body{
+
+        width:94vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section{
+        width: 80vw;
+    }
+
+    video{
+        width: 80vw;
+    }
+
+    h3{
+        margin-bottom: 100px;
+
+    }
+
+    #threeD{
+        width: 80vw;
+    }
+
+    
+    
+}
+
