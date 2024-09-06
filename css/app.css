@@ -14,18 +14,7 @@ header{
     font-size: calc(10px + 2vw);
 }
 
-button a{
-    width:100px;
-    height: 100px;
-    border-radius: 50%;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgb(134, 91, 158);
-    color: black;
-    text-decoration: none;
-    font-size: calc(10px + 3vw);
-}
+
 .navBar{
     display: flex;
     justify-content: space-around;
@@ -41,6 +30,21 @@ button a{
     font-size: calc(18px + 0.5vw);
     width: 90vw;
 
+}
+.up{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    right: 5px;
+    bottom: 0px;
+    background-color: rgb(134, 91, 158);
+    color: black;
+    text-decoration: none;
+    font-size: calc(10px + 3vw);
+    text-align: center;
+    border:2px purple solid;
+    border-right-style:dotted;
 }
 main{
     width: 100%;
@@ -116,21 +120,23 @@ footer ,header{
         align-items: center;
         
     }
-    nav{
-        /* padding: 10px; */
-    }
+   nav{
+    width: 100vw;
+    padding-left: 10px;
+}
+
 
     .navBar{
         flex-direction: column;
         align-items: center;
         background-color: red;
-        width: 90vw;
+        width: 99vw;
         
     }
    .navBar li{
         padding: 0.5rem;
         background-color: azure;
-        width: 90vw;
+        width: 99vw;
         text-align: center;
         border-bottom: 1px green solid ;
     }
@@ -155,7 +161,24 @@ footer ,header{
         width: 93vw;
     }
 
+    .up{
+        width:60px;
+        height: 60px;
+        font-size:40px;
+
+
+    }
+
+    header,footer{
+        width:100vw;
+        margin-left: 10px;
+    }
+
+    
+
     
     
 }
+
+
 
